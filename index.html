@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WanderWorld - Travel Blog</title>
+
+  <!-- Google Font: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">Wander<span>World</span></div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-badge">Travel Stories • Guides • Tips</p>
+        <h1>Colorful journeys for curious travellers.</h1>
+        <p class="hero-subtitle">
+          Find easy itineraries, hidden spots, and budget-friendly ideas to plan
+          your next escape.
+        </p>
+        <a href="#destinations" class="btn btn-primary">Explore trips</a>
+        <a href="#about" class="btn btn-ghost">About me</a>
+      </div>
+      <div class="hero-card">
+        <div class="hero-tag">Featured Trip</div>
+        <h3>7 Days in Bali</h3>
+        <p>
+          Beaches, rice terraces, and sunrise hikes – a simple plan for first-time visitors.
+        </p>
+        <ul>
+          <li>Budget friendly</li>
+          <li>Beginner friendly</li>
+          <li>Relax + adventure mix</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <main>
+    <section id="destinations" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Destinations</h2>
+        <p class="section-subtitle">
+          A few cities and beaches you can read about on this blog.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <img src="paris.jpg" alt="Paris city view" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">City</div>
+              <h3>Paris, France</h3>
+              <p>
+                Cafés, museums, and river walks – a simple 3-day plan around the Eiffel Tower and beyond.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="tokyo.jpg" alt="Tokyo at night" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">City</div>
+              <h3>Tokyo, Japan</h3>
+              <p>
+                Combine neon streets, quiet temples, and local food markets in one compact trip.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="goa.jpg" alt="Beach in Goa" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">Beach</div>
+              <h3>Goa, India</h3>
+              <p>
+                Find calm beaches, beach shacks, and evening markets on a budget-friendly coastal escape.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="london.jpg" alt="London landmarks" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">City</div>
+              <h3>London, UK</h3>
+              <p>
+                Mix free museums, parks, and classic sights for a simple first-time visit.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="dubai.jpg" alt="Dubai skyline" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">Desert</div>
+              <h3>Dubai, UAE</h3>
+              <p>
+                Skyscrapers by day, desert safari by evening, with a basic 2–3 day schedule.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="bali.jpg" alt="Bali rice terraces" class="card-img" />
+            <div class="card-body">
+              <div class="card-tag">Island</div>
+              <h3>Bali, Indonesia</h3>
+              <p>
+                Beaches, waterfalls, and temples arranged into an easy week-long route.
+              </p>
+              <a href="#" class="card-link">View itinerary</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 class="section-title">About the Blogger</h2>
+          <p>
+            Hi, I'm the writer behind WanderWorld – a student who loves short, simple trips
+            and sharing easy-to-follow guides.
+          </p>
+          <p>
+            This website is built using only HTML and CSS to practice modern layouts,
+            colours, and responsive design for all screen sizes.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>Travelling on a student budget</li>
+            <li>Enjoys street food and local transport</li>
+            <li>Learning front-end development</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Have a question or suggestion for a new place? Send a message.
+        </p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 WanderWorld Travel Blog. Built with HTML & CSS.</p>
+      <p class="footer-note">Made as a student project.</p>
+    </div>
+  </footer>
+</body>
+</html>
